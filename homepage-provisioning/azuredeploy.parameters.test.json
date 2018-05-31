@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "testenv-homepage-app-service-plan"
+    },
+    "apiAppName": {
+      "value": "testenv-homepage-api-webapp"
+    },
+    "uiAppName": {
+      "value": "testenv-homepage-ui-webapp"
+    },
+    "apiStorageAccountName": {
+      "value": "apiteststor"
+    },
+    "apistorageAccountType": {
+      "value": "Standard_LRS"
+    }
+  }
+}

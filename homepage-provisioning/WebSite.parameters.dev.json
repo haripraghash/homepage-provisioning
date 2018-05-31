@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "devenv-homepage-app-service-plan"
+    },
+    "apiAppName": {
+      "value": "devenv-homepage-api-webapp"
+    },
+    "uiAppName": {
+      "value": "devenv-homepage-ui-webapp"
+    },
+    "apiStorageAccountName": {
+      "value": "apidevstor"
+    },
+    "apistorageAccountType": {
+      "value": "Standard_LRS"
+    }
+  }
+}
